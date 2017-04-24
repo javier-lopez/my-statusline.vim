@@ -1,0 +1,70 @@
+*my-vim-statusline*                                             My global defaults
+
+==============================================================================
+CONTENTS                                               *MyVimStatuslineContents*
+
+    1. Intro ........................... |MyVimStatuslineIntro|
+    2. Usage ........................... |MyVimStatuslineUsage|
+    3. Configuration ................... |MyVimStatuslineConfig|
+    4. Bugs ............................ |MyVimStatuslineBugs|
+    5. Contributing .................... |MyVimStatuslineContributing|
+    6. Changelog ....................... |MyVimStatuslineChangelog|
+    7. Credits ......................... |MyVimStatuslineCredits|
+
+==============================================================================
+INTRO                                                     *MyVimStatuslineIntro*
+
+my-vim-statusline is a global plugin who set preferences according to they way I
+use [vim](http://vim.org). It sets highly opinionated settings. Probably not
+something you would like to use straight ahead.
+
+==============================================================================
+USAGE                                                     *MyVimStatuslineUsage*
+
+Add. >
+
+        Bundle 'chilicuil/my-vim-statusline'
+<
+To your $VIMRC file and run inside of vim: >
+
+        :BundleInstall
+<
+The plugin will activate upon vim reload.
+
+==============================================================================
+CONFIGURATION                                            *MyVimStatuslineConfig*
+
+No configuration options so far.
+
+==============================================================================
+BUGS                                                       *MyVimStatuslineBugs*
+
+If you find a bug please post it on the issue tracker:
+
+    https://github.com/chilicuil/my-vim-statusline/issues
+
+==============================================================================
+CONTRIBUTING                                       *MyVimStatuslineContributing*
+
+I created this plugin in an effort for cleaning up my chaotic vimrc > 1200 LOC!
+It does everything I need, if you use it and require something else, the best
+way to get it is to fork the repository, if you feel especially charitable,
+feel free to send your changes.
+
+GitHub: http://github.com/chilicuil/my-vim-statusline/
+
+==============================================================================
+CHANGELOG                                             *MyVimStatuslineChangelog*
+
+v0.0.1
+    * Initial release.
+
+==============================================================================
+CREDITS                                                   *MyVimStatuslineCredits*
+
+Enhancements has been made by the following people:
+
+    * Your name,   https://github.com/your-name
+
+==============================================================================
+" vim: ft=help
