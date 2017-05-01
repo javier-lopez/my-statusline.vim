@@ -1,14 +1,14 @@
 " ============================================================================
-" File:        my-vim-statusline.vim
+" File:        my-statusline.vim
 " Description: default global vim settings
 " Maintainer:  Javier Lopez <m@javier.io>
 " ============================================================================
 
-if exists('g:loaded_my_vim_statusline') || &cp
-  finish
-endif
+"if exists('g:loaded_my_vim_statusline') || &cp
+  "finish
+"endif
 
-let g:loaded_my_vim_statusline = 1
+"let g:loaded_my_vim_statusline = 1
 
 "mostly taken from http://github.com/ciaranm/dotfiles-ciaranm/raw/master/vimrc
 set laststatus=2                             "always show statusline

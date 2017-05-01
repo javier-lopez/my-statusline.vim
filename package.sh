@@ -1,3 +1,3 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
-zip -r my-vim-statusline.zip autoload/ doc/ plugin/ README.markdown
+zip -r my-statusline.vim.zip autoload/ doc/ plugin/ README.markdown

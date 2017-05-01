@@ -1,4 +1,4 @@
-*my-vim-statusline*                                             My global defaults
+*my-statusline.vim*                                           My global defaults
 
 ==============================================================================
 CONTENTS                                               *MyVimStatuslineContents*
@@ -14,7 +14,7 @@ CONTENTS                                               *MyVimStatuslineContents*
 ==============================================================================
 INTRO                                                     *MyVimStatuslineIntro*
 
-my-vim-statusline is a global plugin who set preferences according to they way I
+my-statusline.vim is a global plugin who set preferences according to they way I
 use [vim](http://vim.org). It sets highly opinionated settings. Probably not
 something you would like to use straight ahead.
 
@@ -23,13 +23,13 @@ USAGE                                                     *MyVimStatuslineUsage*
 
 Add. >
 
-        Bundle 'chilicuil/my-vim-statusline'
+        Bundle 'chilicuil/my-statusline.vim'
 <
 To your $VIMRC file and run inside of vim: >
 
         :BundleInstall
 <
-The plugin will activate upon vim reload.
+The plugin will take effect the next time vim loads.
 
 ==============================================================================
 CONFIGURATION                                            *MyVimStatuslineConfig*
@@ -41,7 +41,7 @@ BUGS                                                       *MyVimStatuslineBugs*
 
 If you find a bug please post it on the issue tracker:
 
-    https://github.com/chilicuil/my-vim-statusline/issues
+    https://github.com/chilicuil/my-statusline.vim/issues
 
 ==============================================================================
 CONTRIBUTING                                       *MyVimStatuslineContributing*
@@ -51,7 +51,7 @@ It does everything I need, if you use it and require something else, the best
 way to get it is to fork the repository, if you feel especially charitable,
 feel free to send your changes.
 
-GitHub: http://github.com/chilicuil/my-vim-statusline/
+GitHub: http://github.com/chilicuil/my-statusline.vim/
 
 ==============================================================================
 CHANGELOG                                             *MyVimStatuslineChangelog*
@@ -60,7 +60,7 @@ v0.0.1
     * Initial release.
 
 ==============================================================================
-CREDITS                                                   *MyVimStatuslineCredits*
+CREDITS                                                 *MyVimStatuslineCredits*
 
 Enhancements has been made by the following people:
 
