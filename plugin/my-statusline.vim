@@ -28,7 +28,7 @@ endif
 "set statusline+=\ %{synIDattr(synID(line('.'),col('.'),1),'name')}
 set statusline+=%=                           "right align
 set statusline+=%2*%-8{strftime('%H:%M')}    "time
-if filereadable(expand("~/.vim/bundle/vim-cutils/plugin/cutils.vim"))
+if filereadable(expand("~/.vim/bundle/cutils.vim/plugin/cutils.vim"))
     set statusline+=%-7{cutils#FileSize()}   "file size
 endif
 "set statusline+=%2*%-3b,0x%-8B\             "current char
